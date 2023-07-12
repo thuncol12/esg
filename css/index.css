@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.contents{
+  display: flex;
+}
+
+aside{
+  padding: 1%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: beige;
+}
+
+section{
+  padding: 1%;
+  width: 40%;
+  background-color: #bad0ff;  
+}
+
+.moon{
+  width: 90%;
+  height: auto;
+}
+
+.hello{
+  color: blue;
+}
+
+.question{
+  display: flex;
+}
