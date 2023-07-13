@@ -9,6 +9,7 @@ console.log(a + b);
 let date = new Date();
 let hour = date.getHours();
 
+// 조건문
 // if-else문
 if (hour < 11) {
   alert("아침");
@@ -54,3 +55,22 @@ const calculator = {
   },
 };
 console.log(calculator.div(4, 2));
+
+// 반복문
+let array = ["포도", "딸기", "당근", "바나나", "망고"];
+
+// for문
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+// for-in문 -> 인덱스 반환
+for (let i in array) {
+  console.log(i);
+  console.log(array[i]);
+}
+
+// for-of문 -> 각 요소 반환
+for (let a of array) {
+  console.log(a);
+}
